@@ -6,8 +6,12 @@ name: Python application
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'Sum_of_1d_Array/Sum_of_1d_Array.py'
   pull_request:
     branches: [ "main" ]
+    paths:
+      - 'Sum_of_1d_Array/Sum_of_1d_Array.py'
 
 permissions:
   contents: read
